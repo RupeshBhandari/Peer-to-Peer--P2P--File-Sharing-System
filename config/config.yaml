@@ -1,0 +1,4 @@
+discovery_port: 12345
+tcp_port: 54321
+peer_id: '1234'
+ip_address: '192.168.16.229'

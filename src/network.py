@@ -14,8 +14,13 @@ class Network:
         self.tcp_port = tcp_port
         self.active_connections = {}
 
-        # Set up logging
-        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+        # Configure logging
+        logging.basicConfig(level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[
+                        logging.FileHandler(os.path.join('logs', 'app.log')),
+                        logging.StreamHandler()
+                    ])
 
     # Peer Discovery Methods
     def broadcast_presence(self):
