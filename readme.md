@@ -1,31 +1,20 @@
 
-### Key Elements to Include in Your README:
-
-1. **Project Overview**: Brief introduction to the P2P file sharing system.
-2. **Features**: List the main functionalities.
-3. **Installation Instructions**: Steps to set up the environment and install dependencies.
-4. **Usage Instructions**: How to run the application and use its features.
-5. **Project Structure**: Overview of the directory structure.
-6. **Testing**: How to run tests.
-7. **Contributing Guidelines**: How others can contribute.
-8. **License Information**: License details.
-
-### Example README Outline:
-
-```markdown
 # Peer-to-Peer (P2P) File Sharing System
 
 A Python-based P2P file sharing system that allows peers to share files directly with each other without a centralized server.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
+- [Peer-to-Peer (P2P) File Sharing System](#peer-to-peer-p2p-file-sharing-system)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Command-line Interface](#command-line-interface)
+  - [Project Structure](#project-structure)
+  - [Testing](#testing)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 This project implements a Peer-to-Peer (P2P) file sharing system using Python. It allows users to share files directly with each other over a network. The system uses both TCP and UDP protocols to manage connections and file transfers between peers.
